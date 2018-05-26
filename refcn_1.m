@@ -7,6 +7,6 @@ arr = char(s1);
 cn = 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWYZ';
 
 % Use ismember() to remove consonants
-s2 =  arr( ~ismember( arr, cn ));
+s2 =  arr( ~ismember( arr, cn )); % here no string() to convert
 
 end
